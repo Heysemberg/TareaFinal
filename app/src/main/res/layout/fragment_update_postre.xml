@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.home.updatePostreFragment">
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/NombrePostre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_correo_lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/TipoPostre"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/et_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/PrecioPostre"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/et_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/TamañoPostre"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/bt_update_lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btUpdatePostre" />
+
+    <Button
+        android:id="@+id/bt_delete_lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btDeletePostre" />
+
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:contentDescription="@string/msg_imagen"
+        android:scaleType="centerInside"
+        tools:ignore="ImageContrastCheck"
+        tools:src="@tools:sample/backgrounds/scenic" />
+</LinearLayout>

@@ -9,7 +9,14 @@
         android:id="@+id/nav_home"
         android:name="com.tareafinal.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_addPostreFragment"
+            app:destination="@id/addPostreFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_updatePostreFragment"
+            app:destination="@id/updatePostreFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -22,4 +29,25 @@
         android:name="com.tareafinal.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addPostreFragment"
+        android:name="com.tareafinal.ui.home.AddPostreFragment"
+        android:label="fragment_add_postre"
+        tools:layout="@layout/fragment_add_postre" >
+        <action
+            android:id="@+id/action_addPostreFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/updatePostreFragment"
+        android:name="com.tareafinal.ui.home.updatePostreFragment"
+        android:label="fragment_update_postre"
+        tools:layout="@layout/fragment_update_postre" >
+        <action
+            android:id="@+id/action_updatePostreFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+        <argument
+            android:name="PostreArg"
+            app:argType="com.tareafinal.model.Postre" />
+    </fragment>
 </navigation>

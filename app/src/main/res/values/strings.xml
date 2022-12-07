@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">TareaFinal</string>
+
     <string name="title_activity_principal">Principal</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -11,4 +12,22 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="NombrePostre">Nombre del Postre</string>
+    <string name="TipoPostre">Tipo</string>
+    <string name="PrecioPostre">Monto($)</string>
+    <string name="TamañoPostre">Tamaño</string>
+    <string name="btAddPostre">Agregar Postre</string>
+    <string name="ms_AddPostre">Postre agregado</string>
+    <string name="ms_FaltaValores">Faltan valores</string>
+    <string name="ms_UpdatePostre">Postre modificado</string>
+    <string name="ms_DeletePostre">Postre eliminado</string>
+
+    <string name="btUpdatePostre">Actualizar Postre</string>
+    <string name="btDeletePostre">Eliminar Postre</string>
+
+    <string name="todo">TODO</string>
+    <string name="msg_imagen">Foto del Postre</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.tareafinal.ui.gallery
+package com.tareafinal.viewModel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
